@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/anime-apollo-graphql/static/css/main.27c609e5.css",
+    "main.js": "/anime-apollo-graphql/static/js/main.96b2b51c.js",
+    "static/js/787.da8aba7a.chunk.js": "/anime-apollo-graphql/static/js/787.da8aba7a.chunk.js",
+    "index.html": "/anime-apollo-graphql/index.html",
+    "main.27c609e5.css.map": "/anime-apollo-graphql/static/css/main.27c609e5.css.map",
+    "main.96b2b51c.js.map": "/anime-apollo-graphql/static/js/main.96b2b51c.js.map",
+    "787.da8aba7a.chunk.js.map": "/anime-apollo-graphql/static/js/787.da8aba7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27c609e5.css",
+    "static/js/main.96b2b51c.js"
+  ]
+}
