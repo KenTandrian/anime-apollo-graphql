@@ -1,6 +1,7 @@
 import React from "react";
 import { createSelector } from "reselect";
 import styled from "styled-components";
+import AnimeItem from "../../components/animeItem";
 import { useAppSelector } from "../../hooks";
 import { makeSelectAnimePage } from "./selectors";
 
@@ -11,30 +12,6 @@ const HotAnimeContainer = styled.div`
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-`;
-
-const AnimeItemContainer = styled.div`
-  width: 14em;
-  height: 18em;
-  display: flex;
-  flex-direction: column;
-`;
-
-const AnimeCover = styled.div`
-  width: auto;
-  height: 13em;
-
-  img {
-    width: auto;
-    height: 100%;
-  }
-`;
-
-const AnimeTitle = styled.h6`
-  margin-top: 8px;
-  font-size: 19px;
-  color: black;
-  font-weight: 600;
 `;
 
 const stateSelector = createSelector(makeSelectAnimePage, (animePage) => ({
@@ -56,16 +33,7 @@ const HotAnime = () => {
       {animePage &&
         animePage.media &&
         animePage.media.map((anime) => (
-          <AnimeItemContainer key={anime?.id}>
-            <AnimeCover>
-              <img
-                alt={anime?.title?.english || ""}
-                src={anime?.coverImage?.large || ""}
-              />
-            </AnimeCover>
-            <AnimeTitle>{anime?.title?.english}</AnimeTitle>
-            <h5>Average Score: {anime?.averageScore}</h5>
-          </AnimeItemContainer>
+          <AnimeItem key={anime?.id} anime={anime} />
         ))}
     </HotAnimeContainer>
   );
