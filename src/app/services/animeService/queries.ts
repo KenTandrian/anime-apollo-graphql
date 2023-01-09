@@ -10,6 +10,8 @@ export const GET_ANIME_PAGE = gql`
         averageScore
         title {
           english
+          romaji
+          native
         }
         coverImage {
           large
