@@ -1,6 +1,9 @@
 import { Dispatch } from "@reduxjs/toolkit";
 import React, { useEffect } from "react";
 import styled from "styled-components";
+import Footer from "../../components/footer";
+import Header from "../../components/header";
+import Hero from "../../components/hero";
 import { useAppDispatch } from "../../hooks";
 import animeService from "../../services/animeService";
 import { GetAnimePage } from "../../services/animeService/__generated__/GetAnimePage";
@@ -25,7 +28,7 @@ const HomePage = (props: IHomePageProps) => {
   const { setAnimePage } = actionDispatch(useAppDispatch());
 
   const fetchAnimePage = async () => {
-    const animePage = await animeService.getAnimePage(0).catch((err) => {
+    const animePage = await animeService.getAnimePage(0, 12).catch((err) => {
       console.log("Error: " + err);
     });
     if (animePage) setAnimePage(animePage);
@@ -38,8 +41,10 @@ const HomePage = (props: IHomePageProps) => {
 
   return (
     <Container>
-      <h1>Hot Anime</h1>
+      <Header />
+      <Hero />
       <HotAnime />
+      <Footer />
     </Container>
   );
 };

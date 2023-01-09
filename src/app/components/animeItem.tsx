@@ -1,43 +1,27 @@
+import { StarIcon } from "@heroicons/react/24/outline";
 import React from "react";
-import styled from "styled-components";
 import { GetAnimePage_Page_media } from "../services/animeService/__generated__/GetAnimePage";
-
-const AnimeItemContainer = styled.div`
-  width: 14em;
-  height: 18em;
-  display: flex;
-  flex-direction: column;
-`;
-
-const AnimeCover = styled.div`
-  width: auto;
-  height: 13em;
-
-  img {
-    width: auto;
-    height: 100%;
-  }
-`;
-
-const AnimeTitle = styled.h6`
-  margin-top: 8px;
-  font-size: 19px;
-  color: black;
-  font-weight: 600;
-`;
 
 const AnimeItem = ({ anime }: { anime: GetAnimePage_Page_media | null }) => {
   return (
-    <AnimeItemContainer>
-      <AnimeCover>
+    <div className="group relative">
+      <div className="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
         <img
-          alt={anime?.title?.english || ""}
+          alt={anime?.title?.english || "No Title"}
           src={anime?.coverImage?.large || ""}
+          className="h-full w-full object-cover object-center group-hover:opacity-75"
         />
-      </AnimeCover>
-      <AnimeTitle>{anime?.title?.english}</AnimeTitle>
-      <h5>Average Score: {anime?.averageScore}</h5>
-    </AnimeItemContainer>
+      </div>
+      <h3 className="mt-4 text-sm text-gray-700 truncate">
+        {anime?.title?.english || "No Title"}
+      </h3>
+      <div className="flex flex-row items-center gap-1 mt-1 ">
+        <StarIcon className="h-6 w-6 flex-shrink-0 text-amber-600" />
+        <p className="text-lg font-medium text-gray-900">
+          {anime?.averageScore}
+        </p>
+      </div>
+    </div>
   );
 };
 
