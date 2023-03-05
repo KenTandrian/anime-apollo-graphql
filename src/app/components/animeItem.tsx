@@ -14,7 +14,7 @@ const AnimeItem = ({ anime }: { anime: GetAnimePage_Page_media | null }) => {
         <img
           alt={title}
           src={anime?.coverImage?.large || ""}
-          className="h-full w-full object-cover object-center group-hover:opacity-75"
+          className="h-full w-full object-cover object-center group-hover:opacity-75 transition-opacity"
         />
       </div>
       <h3 className="mt-4 text-sm text-gray-700 truncate">{title}</h3>
