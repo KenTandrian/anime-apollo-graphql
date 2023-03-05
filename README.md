@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# AnimeDaily
 
+[![issues](https://img.shields.io/github/issues/KenTandrian/anime-apollo-graphql)](https://github.com/KenTandrian/anime-apollo-graphql/issues)
+[![language](https://img.shields.io/github/languages/count/KenTandrian/anime-apollo-graphql)](https://github.com/KenTandrian/anime-apollo-graphql/search?l=javascript)
+[![top-language](https://img.shields.io/github/languages/top/KenTandrian/anime-apollo-graphql)](https://github.com/KenTandrian/anime-apollo-graphql/search?l=javascript)
+[![commit](https://img.shields.io/github/commit-activity/m/KenTandrian/anime-apollo-graphql)](https://github.com/KenTandrian/anime-apollo-graphql/commits/main)
+[![last-commit](https://img.shields.io/github/last-commit/KenTandrian/anime-apollo-graphql)](https://github.com/KenTandrian/anime-apollo-graphql/commits/main)
+
+## Introduction
+
+AnimeDaily is a made-for-fun website made with React JS and Anilist API.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
 
-## Available Scripts
+## Technologies
 
-In the project directory, you can run:
+[![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)](https://github.com/KenTandrian?tab=repositories&language=javascript)
+[![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js)](https://github.com/KenTandrian?tab=repositories&language=javascript)
+[![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)](https://github.com/KenTandrian?tab=repositories&language=javascript)
+[![HTML5](https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=html5&logoColor=orange)](https://github.com/KenTandrian?tab=repositories&language=html)
+[![CSS3](https://img.shields.io/badge/-CSS3-black?style=flat-square&logo=css3&logoColor=blue)](https://github.com/KenTandrian?tab=repositories&language=css)
 
-### `npm start`
+## Dependencies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Production
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[![react](https://img.shields.io/github/package-json/dependency-version/KenTandrian/anime-apollo-graphql/react)](https://www.npmjs.com/package/react)
+[![react-dom](https://img.shields.io/github/package-json/dependency-version/KenTandrian/anime-apollo-graphql/react-dom)](https://www.npmjs.com/package/react-dom)
+[![react-scripts](https://img.shields.io/github/package-json/dependency-version/KenTandrian/anime-apollo-graphql/dev/react-scripts)](https://www.npmjs.com/package/react-scripts)
+[![@apollo/client](https://img.shields.io/github/package-json/dependency-version/KenTandrian/anime-apollo-graphql/@apollo/client)](https://www.npmjs.com/package/@apollo/client)
+[![tailwindcss](https://img.shields.io/github/package-json/dependency-version/KenTandrian/anime-apollo-graphql/tailwindcss)](https://www.npmjs.com/package/tailwindcss)
 
-### `npm test`
+### Development
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[![gh-pages](https://img.shields.io/github/package-json/dependency-version/KenTandrian/anime-apollo-graphql/dev/gh-pages)](https://www.npmjs.com/package/gh-pages)
+[![typescript](https://img.shields.io/github/package-json/dependency-version/KenTandrian/anime-apollo-graphql/dev/typescript)](https://www.npmjs.com/package/typescript)
 
-### `npm run build`
+[Go to List of Dependencies](https://github.com/KenTandrian/anime-apollo-graphql/network/dependencies)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+&#169; Ken Tandrian 2023.
