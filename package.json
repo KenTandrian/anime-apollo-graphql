@@ -1,7 +1,7 @@
 {
   "name": "anime-apollo-graphql",
+  "homepage": "https://kentandrian.github.io/anime-apollo-graphql",
   "version": "0.1.0",
-  "homepage": "http://kentandrian.github.io/anime-apollo-graphql",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.7.9",
@@ -21,12 +21,12 @@
     "web-vitals": "^3.1.1"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
     "schema:download": "npx apollo service:download --endpoint=https://anilist.co/graphql ./src/app/graphql/graphql-schema.json",
     "schema:generate-watch": "npx apollo codegen:generate --localSchemaFile=./src/app/graphql/graphql-schema.json --target=typescript --tagName=gql --watch"
   },
