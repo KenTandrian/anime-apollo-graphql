@@ -25,7 +25,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [![react](https://img.shields.io/github/package-json/dependency-version/KenTandrian/anime-apollo-graphql/react)](https://www.npmjs.com/package/react)
 [![react-dom](https://img.shields.io/github/package-json/dependency-version/KenTandrian/anime-apollo-graphql/react-dom)](https://www.npmjs.com/package/react-dom)
-[![react-scripts](https://img.shields.io/github/package-json/dependency-version/KenTandrian/anime-apollo-graphql/dev/react-scripts)](https://www.npmjs.com/package/react-scripts)
+[![react-scripts](https://img.shields.io/github/package-json/dependency-version/KenTandrian/anime-apollo-graphql/react-scripts)](https://www.npmjs.com/package/react-scripts)
 [![@apollo/client](https://img.shields.io/github/package-json/dependency-version/KenTandrian/anime-apollo-graphql/@apollo/client)](https://www.npmjs.com/package/@apollo/client)
 [![tailwindcss](https://img.shields.io/github/package-json/dependency-version/KenTandrian/anime-apollo-graphql/tailwindcss)](https://www.npmjs.com/package/tailwindcss)
 
