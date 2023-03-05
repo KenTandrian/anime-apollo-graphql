@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/anime-apollo-graphql/static/css/main.78388925.css",
-    "main.js": "/anime-apollo-graphql/static/js/main.9b9c7d5c.js",
+    "main.css": "/anime-apollo-graphql/static/css/main.957a2e14.css",
+    "main.js": "/anime-apollo-graphql/static/js/main.3beca197.js",
     "static/js/496.e9602e27.chunk.js": "/anime-apollo-graphql/static/js/496.e9602e27.chunk.js",
     "index.html": "/anime-apollo-graphql/index.html",
-    "main.78388925.css.map": "/anime-apollo-graphql/static/css/main.78388925.css.map",
-    "main.9b9c7d5c.js.map": "/anime-apollo-graphql/static/js/main.9b9c7d5c.js.map",
+    "main.957a2e14.css.map": "/anime-apollo-graphql/static/css/main.957a2e14.css.map",
+    "main.3beca197.js.map": "/anime-apollo-graphql/static/js/main.3beca197.js.map",
     "496.e9602e27.chunk.js.map": "/anime-apollo-graphql/static/js/496.e9602e27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78388925.css",
-    "static/js/main.9b9c7d5c.js"
+    "static/css/main.957a2e14.css",
+    "static/js/main.3beca197.js"
   ]
 }
