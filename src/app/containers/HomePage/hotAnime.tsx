@@ -21,13 +21,11 @@ const HotAnime = () => {
   const isEmptyAnimePage =
     !animePage || !animePage.media || animePage.media.length === 0;
 
-  if (isEmptyAnimePage) {
-    return null;
-  }
+  if (isEmptyAnimePage) return null;
 
   return (
     <div className="py-24 sm:py-32 lg:py-40">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8" id="hot">
         <div className="sm:text-center mb-12">
           <h2 className="text-lg font-semibold leading-8 text-amber-600">
             Hot Anime
