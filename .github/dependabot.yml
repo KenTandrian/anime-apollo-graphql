@@ -13,3 +13,11 @@ updates:
     labels:
       - javascript
       - dependencies
+
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+    labels:
+      - actions
+      - dependencies
