@@ -4,7 +4,7 @@
   "version": "0.1.69",
   "private": true,
   "dependencies": {
-    "@apollo/client": "^3.7.14",
+    "@apollo/client": "^3.7.15",
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.18",
     "@reduxjs/toolkit": "^1.9.5",
