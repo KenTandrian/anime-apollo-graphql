@@ -23,11 +23,23 @@ jobs:
       - name: 🛎️ Checkout Repository
         uses: actions/checkout@v3
 
+      - name: 📁 Get Yarn Cache Directory
+        id: yarn-cache-dir
+        run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
+
+      - name: ☁️ Cache Yarn
+        uses: actions/cache@v3
+        with:
+          path: ${{ steps.yarn-cache-dir.outputs.dir }}
+          key: node-cache-${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          # If source files changed but packages didn't, rebuild from a prior cache.
+          restore-keys: |
+            node-cache-${{ runner.os }}-yarn-
+
       - name: ⚙️ Setup Node.js 18
         uses: actions/setup-node@v3
         with:
           node-version: 18.x
-          cache: yarn
 
       - name: 🔧 Install Dependencies
         run: yarn install --frozen-lockfile
