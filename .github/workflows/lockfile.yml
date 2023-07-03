@@ -1,0 +1,12 @@
+name: Lockfile Maintenance
+on: workflow_dispatch
+
+jobs:
+  run:
+    name: Run workflow
+    uses: KenTandrian/workflows/.github/workflows/lockfile.yml@main
+    permissions:
+      contents: write
+    with:
+      package-manager: yarn
+    secrets: inherit
