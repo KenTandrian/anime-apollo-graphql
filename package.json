@@ -62,5 +62,8 @@
     "gh-pages": "^5.0.0",
     "postcss": "^8.4.26",
     "typescript": "^5.1.6"
+  },
+  "resolutions": {
+    "react-scripts/@svgr/webpack": "^8.0.1"
   }
 }
