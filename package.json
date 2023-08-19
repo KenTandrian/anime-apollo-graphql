@@ -1,13 +1,14 @@
 {
   "name": "anime-apollo-graphql",
   "homepage": "https://kentandrian.github.io/anime-apollo-graphql",
-  "version": "0.2.0",
+  "version": "0.2.6",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.8.1",
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
     "@reduxjs/toolkit": "^1.9.5",
+    "@svgr/webpack": "^8.0.1",
     "graphql": "^16.8.0",
     "graphql-tag": "^2.12.6",
     "react": "^18.2.0",
