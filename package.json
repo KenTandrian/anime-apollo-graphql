@@ -61,7 +61,7 @@
     "@types/redux-logger": "^3.0.9",
     "@types/styled-components": "^5.1.27",
     "gh-pages": "^6.0.0",
-    "postcss": "^8.4.29",
+    "postcss": "^8.4.30",
     "typescript": "^5.2.2"
   },
   "resolutions": {
