@@ -58,7 +58,7 @@
     "@types/node": "^20.7.0",
     "@types/react": "^18.2.23",
     "@types/react-dom": "^18.2.8",
-    "@types/redux-logger": "^3.0.9",
+    "@types/redux-logger": "^3.0.10",
     "@types/styled-components": "^5.1.28",
     "gh-pages": "^6.0.0",
     "postcss": "^8.4.30",
