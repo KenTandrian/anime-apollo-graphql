@@ -9,7 +9,7 @@
 ## Introduction
 
 AnimeDaily is a made-for-fun website made with React JS and Anilist API.
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
+This project was bootstrapped with [Vite](https://github.com/vitejs/vite), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
 
 ## Technologies
 
@@ -25,7 +25,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [![react](https://img.shields.io/github/package-json/dependency-version/KenTandrian/anime-apollo-graphql/react)](https://www.npmjs.com/package/react)
 [![react-dom](https://img.shields.io/github/package-json/dependency-version/KenTandrian/anime-apollo-graphql/react-dom)](https://www.npmjs.com/package/react-dom)
-[![react-scripts](https://img.shields.io/github/package-json/dependency-version/KenTandrian/anime-apollo-graphql/react-scripts)](https://www.npmjs.com/package/react-scripts)
 [![@apollo/client](https://img.shields.io/github/package-json/dependency-version/KenTandrian/anime-apollo-graphql/@apollo/client)](https://www.npmjs.com/package/@apollo/client)
 [![tailwindcss](https://img.shields.io/github/package-json/dependency-version/KenTandrian/anime-apollo-graphql/tailwindcss)](https://www.npmjs.com/package/tailwindcss)
 
@@ -33,6 +32,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [![gh-pages](https://img.shields.io/github/package-json/dependency-version/KenTandrian/anime-apollo-graphql/dev/gh-pages)](https://www.npmjs.com/package/gh-pages)
 [![typescript](https://img.shields.io/github/package-json/dependency-version/KenTandrian/anime-apollo-graphql/dev/typescript)](https://www.npmjs.com/package/typescript)
+[![vite](https://img.shields.io/github/package-json/dependency-version/KenTandrian/anime-apollo-graphql/dev/vite)](https://www.npmjs.com/package/vite)
 
 [Go to List of Dependencies](https://github.com/KenTandrian/anime-apollo-graphql/network/dependencies)
 
