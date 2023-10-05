@@ -13,11 +13,12 @@ This project was bootstrapped with [Vite](https://github.com/vitejs/vite), using
 
 ## Technologies
 
-[![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)](https://github.com/KenTandrian?tab=repositories&language=javascript)
-[![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js)](https://github.com/KenTandrian?tab=repositories&language=javascript)
-[![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)](https://github.com/KenTandrian?tab=repositories&language=javascript)
-[![HTML5](https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=html5&logoColor=orange)](https://github.com/KenTandrian?tab=repositories&language=html)
-[![CSS3](https://img.shields.io/badge/-CSS3-black?style=flat-square&logo=css3&logoColor=blue)](https://github.com/KenTandrian?tab=repositories&language=css)
+[![TypeScript](https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logo=Typescript)](https://github.com/KenTandrian?tab=repositories&language=typescript)
+[![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=for-the-badge&logo=Node.js)](https://github.com/KenTandrian?tab=repositories&language=javascript)
+[![React](https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react)](https://github.com/KenTandrian?tab=repositories&language=javascript)
+[![HTML5](https://img.shields.io/badge/-HTML5-black?style=for-the-badge&logo=html5&logoColor=orange)](https://github.com/KenTandrian?tab=repositories&language=html)
+[![CSS3](https://img.shields.io/badge/-CSS3-black?style=for-the-badge&logo=css3&logoColor=blue)](https://github.com/KenTandrian?tab=repositories&language=css)
+[![Vite](https://img.shields.io/badge/-Vite-black?style=for-the-badge&logo=Vite)](https://github.com/KenTandrian?tab=repositories)
 
 ## Dependencies
 
