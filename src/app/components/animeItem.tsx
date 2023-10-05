@@ -1,8 +1,7 @@
 import { StarIcon } from "@heroicons/react/24/outline";
-import React from "react";
 import { GetAnimePage_Page_media } from "../services/animeService/__generated__/GetAnimePage";
 
-const AnimeItem = ({ anime }: { anime: GetAnimePage_Page_media | null }) => {
+export default function AnimeItem({ anime }: { anime: GetAnimePage_Page_media | null }) {
   const title =
     anime?.title?.english ||
     anime?.title?.romaji ||
@@ -27,5 +26,3 @@ const AnimeItem = ({ anime }: { anime: GetAnimePage_Page_media | null }) => {
     </div>
   );
 };
-
-export default AnimeItem;

@@ -1,6 +1,4 @@
-import React from "react";
-
-const Hero = () => {
+export default function Hero() {
   return (
     <div className="relative px-6 lg:px-8">
       <div className="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
@@ -9,7 +7,7 @@ const Hero = () => {
             <div className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               <span className="text-gray-600">
                 Announcing our next round of funding.{" "}
-                <a href="/" className="font-semibold text-amber-600">
+                <a href="#" className="font-semibold text-amber-600">
                   <span className="absolute inset-0" aria-hidden="true" />
                   Read more <span aria-hidden="true">&rarr;</span>
                 </a>
@@ -26,7 +24,7 @@ const Hero = () => {
             </p>
             <div className="mt-8 flex gap-x-4 sm:justify-center">
               <a
-                href="/"
+                href="#"
                 className="inline-block rounded-lg bg-amber-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-amber-600 hover:bg-amber-700 hover:ring-amber-700"
               >
                 Get started{" "}
@@ -77,5 +75,3 @@ const Hero = () => {
     </div>
   );
 };
-
-export default Hero;

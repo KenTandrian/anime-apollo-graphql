@@ -106,7 +106,7 @@ export default function Header() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex items-center justify-between border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="/">
+            <a href="#">
               <span className="sr-only">Your Company</span>
               <h1 className="text-2xl font-bold">AnimeDaily</h1>
             </a>
@@ -194,13 +194,13 @@ export default function Header() {
             </Popover>
 
             <a
-              href="/"
+              href="#"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               Social
             </a>
             <a
-              href="/"
+              href="#"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               Forum
@@ -281,7 +281,7 @@ export default function Header() {
                           </div>
                           <div className="mt-5 text-sm">
                             <a
-                              href="/"
+                              href="#"
                               className="font-medium text-amber-600 hover:text-amber-500"
                             >
                               View all posts
@@ -298,13 +298,13 @@ export default function Header() {
           </Popover.Group>
           <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
             <a
-              href="/"
+              href="#"
               className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
             >
               Log in
             </a>
             <a
-              href="/"
+              href="#"
               className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-amber-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-amber-700"
             >
               Sign up
@@ -366,14 +366,14 @@ export default function Header() {
             <div className="space-y-6 py-6 px-5">
               <div className="grid grid-cols-2 gap-y-4 gap-x-8">
                 <a
-                  href="/"
+                  href="#"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Pricing
                 </a>
 
                 <a
-                  href="/"
+                  href="#"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Docs
@@ -390,14 +390,14 @@ export default function Header() {
               </div>
               <div>
                 <a
-                  href="/"
+                  href="#"
                   className="flex w-full items-center justify-center rounded-md border border-transparent bg-amber-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-amber-700"
                 >
                   Sign up
                 </a>
                 <p className="mt-6 text-center text-base font-medium text-gray-500">
                   Existing customer?{" "}
-                  <a href="/" className="text-amber-600 hover:text-amber-500">
+                  <a href="#" className="text-amber-600 hover:text-amber-500">
                     Log in
                   </a>
                 </p>
