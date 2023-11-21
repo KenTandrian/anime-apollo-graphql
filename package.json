@@ -44,7 +44,7 @@
     "gh-pages": "^6.1.0",
     "jsdom": "^22.1.0",
     "postcss": "^8.4.31",
-    "typescript": "^5.2.2",
+    "typescript": "^5.3.2",
     "vite": "^5.0.0",
     "vitest": "^0.34.6"
   }
