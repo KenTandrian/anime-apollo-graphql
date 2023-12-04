@@ -2363,6 +2363,11 @@ reselect@^4.1.8:
   resolved "https://registry.yarnpkg.com/reselect/-/reselect-4.1.8.tgz#3f5dc671ea168dccdeb3e141236f69f02eaec524"
   integrity sha512-ab9EmR80F/zQTMNeneUr4cv+jSwPJgIlvEmVwLerwrWVbpLlBuls9XHzIeTFy4cegU2NHBp3va0LKOzU5qFEYQ==
 
+reselect@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/reselect/-/reselect-5.0.0.tgz#36344481f36b5852de3a862c51e2152c9c67b2d2"
+  integrity sha512-8YRuy8VJoLZ2+qtfVylxMLQOpx7uPH9KPtgPNoSKFeYMmiKKrvRX7Z/E3ouHqrcWlLqfyzDY6WUD96dSUKk06A==
+
 resolve@^1.1.7, resolve@^1.22.2:
   version "1.22.8"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.22.8.tgz#b6c87a9f2aa06dfab52e3d70ac8cde321fa5a48d"
