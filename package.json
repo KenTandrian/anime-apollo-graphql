@@ -19,7 +19,7 @@
     "@apollo/client": "^3.8.8",
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
-    "@reduxjs/toolkit": "^1.9.7",
+    "@reduxjs/toolkit": "^2.0.0",
     "graphql": "^16.8.1",
     "graphql-tag": "^2.12.6",
     "react": "^18.2.0",
