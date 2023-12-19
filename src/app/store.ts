@@ -5,6 +5,7 @@ import { createLogger } from "redux-logger";
 const logger = createLogger({ duration: true });
 
 export const store = configureStore({
+  // @ts-ignore
   middleware: (getDefaultMiddleware) => {
     if (import.meta.env.PROD) return getDefaultMiddleware();
     else return getDefaultMiddleware().concat(logger);
