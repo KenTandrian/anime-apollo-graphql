@@ -1,7 +1,7 @@
 {
   "name": "anime-apollo-graphql",
   "homepage": "https://kentandrian.github.io/anime-apollo-graphql",
-  "version": "0.3.66",
+  "version": "0.3.71",
   "private": true,
   "type": "module",
   "scripts": {
