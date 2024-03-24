@@ -16,7 +16,7 @@
     "test:watch": "vitest"
   },
   "dependencies": {
-    "@apollo/client": "3.9.2",
+    "@apollo/client": "3.9.9",
     "@headlessui/react": "1.7.18",
     "@heroicons/react": "2.1.1",
     "@reduxjs/toolkit": "2.1.0",
