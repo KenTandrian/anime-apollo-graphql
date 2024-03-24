@@ -44,7 +44,7 @@
     "gh-pages": "6.1.1",
     "jsdom": "24.0.0",
     "postcss": "8.4.38",
-    "rollup": "4.9.6",
+    "rollup": "4.13.0",
     "typescript": "5.4.3",
     "vite": "5.0.12",
     "vitest": "1.2.2"
