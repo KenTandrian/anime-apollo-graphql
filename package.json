@@ -49,7 +49,7 @@
     "vite": "5.2.11",
     "vitest": "1.6.0"
   },
-  "peerDependencies": {
-    "esbuild": "^0.19.12"
+  "resolutions": {
+    "vite/esbuild": "^0.21.1"
   }
 }
