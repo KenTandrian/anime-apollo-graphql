@@ -47,7 +47,7 @@
     "rollup": "4.17.2",
     "typescript": "5.4.5",
     "vite": "5.2.11",
-    "vitest": "1.4.0"
+    "vitest": "1.6.0"
   },
   "peerDependencies": {
     "esbuild": "^0.19.12"
