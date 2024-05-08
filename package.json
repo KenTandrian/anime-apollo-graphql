@@ -2,6 +2,7 @@
   "name": "anime-apollo-graphql",
   "homepage": "https://kentandrian.github.io/anime-apollo-graphql",
   "version": "0.4.43",
+  "packageManager": "yarn@1.22.19",
   "private": true,
   "type": "module",
   "scripts": {
